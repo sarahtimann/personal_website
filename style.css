@@ -8,14 +8,18 @@ body[data-filter="light"] {
   background-color: rgb(244, 244, 244);
   color: black;
   margin: 2rem 3rem 2rem 3rem;
-  cursor: url("svg/cursor-dark.svg") 10 10, auto;
+  cursor:
+    url("svg/cursor-dark.svg") 10 10,
+    auto;
 }
 
 body[data-filter="dark"] {
   background-color: rgb(33, 33, 33);
   color: white;
   margin: 2rem 3rem 2rem 3rem;
-  cursor: url("svg/cursor-light.svg") 10 10, auto;
+  cursor:
+    url("svg/cursor-light.svg") 10 10,
+    auto;
 }
 
 button {
@@ -149,9 +153,9 @@ p {
   padding-bottom: 10rem;
 }
 
-.cv-h2 {
+/* .cv-h2 {
   margin-bottom: 4rem;
-}
+} */
 
 .cv-item {
   margin-bottom: 3rem;
